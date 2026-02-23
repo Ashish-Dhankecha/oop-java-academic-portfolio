@@ -43,3 +43,48 @@ Each module is organized concept-wise for clarity, scalability, and professional
 ---
 
 ## 📂 Project Structure
+oop-java-lab-portfolio/
+│
+├── 01-Java-Basics
+├── 02-Core-OOP
+├── 03-Advanced-OOP
+├── 04-Inheritance-Polymorphism
+├── 05-Interfaces-Abstract-Packages
+├── 06-Exception-Handling
+├── 07-Multithreading
+├── 08-File-IO
+├── 09-Collections-Generics
+├── 10-JavaFX
+│
+└── README.md
+
+---
+
+## 🛠 Technologies Used
+
+- Java (JDK 17+)
+- JavaFX
+- IntelliJ IDEA / Eclipse
+- Git & GitHub
+
+---
+
+## 🎯 Learning Outcomes
+
+- Strong understanding of Object-Oriented Design  
+- Practical implementation of core Java concepts  
+- Modular code organization  
+- Application of real-world programming constructs  
+- Hands-on experience with GUI and concurrency  
+
+---
+
+## 📎 Author
+
+**Ashish**  
+Computer Engineering Student  
+
+---
+
+
+> This repository serves both as an academic submission and as a demonstration of structured Java development practices.
