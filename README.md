@@ -1,4 +1,4 @@
-# 📘 Object Oriented Programming Lab Portfolio (Java)
+#  Object Oriented Programming Lab Portfolio (Java)
 
 ![Java](https://img.shields.io/badge/Language-Java-blue)
 ![Semester](https://img.shields.io/badge/Semester-4th-green)
@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Course Details
+##  Course Details
 
 - **Subject:** Object Oriented Programming  
 - **Subject Code:** BE04000231  
@@ -16,7 +16,7 @@
 
 ---
 
-## 🚀 Repository Overview
+##  Repository Overview
 
 This repository contains structured implementations of practical exercises designed to strengthen Object-Oriented Programming concepts using Java.
 
@@ -26,7 +26,7 @@ Each module is organized concept-wise for clarity, scalability, and professional
 
 ---
 
-## 🧠 Concepts Covered
+##  Concepts Covered
 
 - Java Fundamentals  
 - Classes and Objects  
@@ -44,7 +44,7 @@ Each module is organized concept-wise for clarity, scalability, and professional
 
 
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - Java (JDK 17+)
 - JavaFX
@@ -53,7 +53,7 @@ Each module is organized concept-wise for clarity, scalability, and professional
 
 ---
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 - Strong understanding of Object-Oriented Design  
 - Practical implementation of core Java concepts  
@@ -63,7 +63,7 @@ Each module is organized concept-wise for clarity, scalability, and professional
 
 ---
 
-## 📎 Author
+##  Author
 
 **Ashish**  
 Computer Engineering Student  
