@@ -2,63 +2,58 @@ import java.util.Scanner;
 
 class BankAccount {
 
-    String accountId;
+    String accountid;
     String accountHolderName;
     double balance;
 
-    void assignValues(String id, String name, double b) {
-        accountId = id;
+    void assighValue(String id, String name, double b) {
+        accountid = id;
         accountHolderName = name;
         balance = b;
     }
 
     void display() {
-        System.out.println("Account ID: " + accountId);
-        System.out.println("Account Holder Name: " + accountHolderName);
-        System.out.println("Balance: " + balance);
-        System.out.println();
+        System.out.println("Account ID of given account is " + accountid);
+        System.out.println("name of account holder is " + accountHolderName);
+        System.out.println("balance of given account is " + balance);
+    }
+
+    static void search(BankAccount[] A, String i) {
+        for (BankAccount j : A) {
+            if (j.accountid.equals(i)) {
+                System.out.println("Account no " + j.accountid + " found.");
+                j.display();
+                return;
+            }
+        }
+        System.out.println("Account no " + i + " Not found.");
+    }
+
+    void addbalance(double b) {
+        balance += b;
     }
 }
 
-public class Practical05BankAccountSearch {
+public class pra05 {
 
     public static void main(String[] args) {
-
         BankAccount[] accounts = new BankAccount[5];
-
         for (int i = 0; i < 5; i++) {
             accounts[i] = new BankAccount();
         }
-
-        accounts[0].assignValues("101", "Ashish", 50000);
-        accounts[1].assignValues("102", "Meet", 4785102.25);
-        accounts[2].assignValues("103", "Taksh", 2488562);
-        accounts[3].assignValues("104", "Harsh", 2544545);
-        accounts[4].assignValues("105", "Ridham", 58641213);
-
-        System.out.println("Displaying all account details:\n");
-
+        accounts[0].assighValue("101", "ashish", 50000);
+        accounts[1].assighValue("102", "meet", 4785102.25);
+        accounts[2].assighValue("103", "taksh", 2488562);
+        accounts[3].assighValue("104", "Harsh", 2544545);
+        accounts[4].assighValue("105", "Ridham", 58641213);
+        System.out.println("Displaying informatations of account holders...");
         for (int i = 0; i < 5; i++) {
             accounts[i].display();
         }
-
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter account ID to search: ");
+        System.out.print("enter account id you want to search:");
         String id = sc.nextLine();
+        BankAccount.search(accounts, id);
 
-        boolean found = false;
-
-        for (int i = 0; i < 5; i++) {
-            if (accounts[i].accountId.equals(id)) {
-                System.out.println("\nAccount Found:");
-                accounts[i].display();
-                found = true;
-                break;
-            }
-        }
-
-        if (!found) {
-            System.out.println("Account not found.");
-        }
     }
 }
